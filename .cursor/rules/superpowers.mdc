@@ -1,0 +1,30 @@
+---
+description: Superpowers skills reference - see sessionStart hook for auto-injection
+globs: **/*
+alwaysApply: false
+---
+
+# Superpowers Skills Reference
+
+Skills are in `.cursor/skills/`. The `sessionStart` hook automatically injects `using-superpowers` skill.
+
+## Quick Reference
+
+| Skill | When to Use |
+|-------|-------------|
+| `brainstorming` | Before any creative work |
+| `writing-plans` | Before implementation, after design |
+| `executing-plans` | Execute plans in batches |
+| `subagent-driven-development` | Execute plans with subagents |
+| `test-driven-development` | Before writing ANY code |
+| `systematic-debugging` | When encountering bugs |
+| `verification-before-completion` | Before claiming done |
+| `using-git-worktrees` | When starting feature work |
+| `finishing-a-development-branch` | When implementation complete |
+| `requesting-code-review` | After tasks/features |
+| `receiving-code-review` | When receiving feedback |
+| `dispatching-parallel-agents` | For 2+ independent tasks |
+
+## Agents
+
+- `.cursor/agents/code-reviewer.md` - Code review subagent
