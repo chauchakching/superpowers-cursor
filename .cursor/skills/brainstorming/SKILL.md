@@ -16,7 +16,8 @@ Start by understanding the current project context, then ask questions one at a 
 **Understanding the idea:**
 - Check out the current project state first (files, docs, recent commits)
 - Ask questions one at a time to refine the idea
-- Prefer multiple choice questions when possible, but open-ended is fine too
+- Use the `AskQuestion` tool for multiple choice questions (better UX than plain text)
+- Fall back to plain text for open-ended questions that need free-form responses
 - Only one question per message - if a topic needs more exploration, break it into multiple questions
 - Focus on understanding: purpose, constraints, success criteria
 
@@ -47,7 +48,7 @@ Start by understanding the current project context, then ask questions one at a 
 ## Key Principles
 
 - **One question at a time** - Don't overwhelm with multiple questions
-- **Multiple choice preferred** - Easier to answer than open-ended when possible
+- **Multiple choice via AskQuestion** - Use the tool for structured choices; plain text for open-ended
 - **YAGNI ruthlessly** - Remove unnecessary features from all designs
 - **Explore alternatives** - Always propose 2-3 approaches before settling
 - **Incremental validation** - Present design in sections, validate each
